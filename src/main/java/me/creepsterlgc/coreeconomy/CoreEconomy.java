@@ -2,8 +2,8 @@ package main.java.me.creepsterlgc.coreeconomy;
 
 import java.util.logging.Logger;
 
-import main.java.me.creepsterlgc.core.commands.CommandMoney;
 import main.java.me.creepsterlgc.core.files.FileCommands;
+import main.java.me.creepsterlgc.coreeconomy.commands.CommandMoney;
 
 import org.spongepowered.api.Game;
 import org.spongepowered.api.event.Listener;
