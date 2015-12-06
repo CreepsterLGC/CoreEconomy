@@ -30,7 +30,7 @@ public class CoreEconomy {
     @Listener
     public void onEnable(GameStartingServerEvent event) {
     	
-    	if(FileCommands.MONEY()) game.getCommandDispatcher().register(this, new CommandMoney(), "money");
+    	if(FileCommands.MONEY()) game.getCommandManager().register(this, new CommandMoney(), "money");
     	
     }
 	
